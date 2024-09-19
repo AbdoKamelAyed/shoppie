@@ -1,0 +1,65 @@
+// Colors
+--bg-white: hsla(0, 0%, 100%, 1);
+--bg-gainsboro: hsla(154, 10%, 86%, 1);
+--bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
+--bg-orange-crayola: hsla(18, 97%, 62%, 1);
+--bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
+--text-orange-crayola: hsla(18, 97%, 62%, 1);
+--text-blue-crayola: hsla(216, 98%, 52%, 1);
+--text-eerie-black: hsla(210, 11%, 15%, 1);
+--text-eerie-black-2: hsla(0, 0%, 7%, 1);
+--text-black: hsla(270, 100%, 0%, 1);
+--border-eerie-black: hsla(0, 0%, 7%, 1);
+
+// Icons
+
+# Shopping 
+<i class="fas fa-shopping-cart"></i>
+<i class="fas fa-shopping-bag"></i>
+
+<i class="fa fa-cart-plus" aria-hidden="true"></i>
+<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+
+# Arrows 
+<i class="fa fa-caret-up" aria-hidden="true"></i>
+
+# Social Icons 
+<i class="fab fa-x-twitter"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+
+// Text 
+
+Man summer collection
+
+This is the factor that sets us apart from competition and allows us deliver a specialist business service team applies its ranging experience determining
+
+Explore new arrivals
+
+Short Sleeve Shirt
+Studios Trouser
+Dead Sunglasses
+
+Featured products
+
+Acne Baseball Cap
+Short Sleeve Shirt
+Garcons Perfumes
+Salomon Sneaker
+Ribbed Beanie Hat
+Acronym Khaki
+
+35% off 
+
+This is the main factor that sets us apart our competition and allows us deliver a specialist business consultancy service
+
+Main factor that sets us apart competition allows deliver a specialist business consultancy service applies its ranging experience
+
+Contact info
+
+Neal St, London WC2H 9PR
+United Kingdom
+info.shoppie@support.com
++00 123 456 789

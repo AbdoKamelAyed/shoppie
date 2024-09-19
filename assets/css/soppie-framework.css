@@ -1,0 +1,252 @@
+/*./assets/css/ */
+@import url("../fonts/font.css");
+:root {
+  /* Colors */
+  /* Background color */
+  --bg-white: #ffffff;
+  --bg-gainsboro: #d8dfdc;
+  --bg-wild-blue: #a6b1d8;
+  --bg-orange: #fc7940;
+  --bg-roman-silver: #87919b4d;
+  /* text color */
+  --text-orange: #fc7940;
+  --text-blue: #0d6dfd;
+  --text-eerie-black: #22262a;
+  --text-eerie-black-2: #121212;
+  --text-black: #000000;
+  /* border color */
+  --border-eerie-black: #121212;
+  /* Typography */
+  /* Fonts */
+  --ff-clashDisplay: "ClashDisplay", cursive;
+  --ff-poppins: "Poppins", sans-serif;
+  /* Font Weight */
+  --weight-semiBold: 600;
+  --weight-Bold: 700;
+  /* Font Size */
+  --fs-1: 1.2rem;
+  --fs-2: 1.4rem;
+  --fs-3: 1.8rem;
+  --fs-4: 2rem;
+  --fs-5: 2.4rem;
+  --fs-6: 2.5rem;
+  --fs-7: 3rem;
+  --fs-8: 3.4rem;
+  --fs-9: 3.8rem;
+  --fs-10: 4rem;
+  --fs-11: 4.4rem;
+  --fs-12: 6rem;
+  --fs-13: 6.2rem;
+  --fs-14: 7.8rem;
+  /* Padding, Margin */
+  --section-padding-block-1: 150px;
+  --section-padding-block-2: 60px;
+  /* Box-Shadow */
+  --shadow-1: 0 4px 6px #0c002e1a;
+  --shadow-2: 3px 3px 0px #121212;
+  --shadow-3: 2px 2px 0px #121212;
+  /* Transitions */
+  --transition-1: 0.3s;
+  --transition-2: 0.6s;
+}
+/* Resiting */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Visual Identity Settings */
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-orange);
+  /* border-radius: 8px; */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ec6126;
+}
+/* Selected Text Styling */
+::-moz-selection {
+  background: var(--bg-orange);
+  color: #fff;
+}
+::selection {
+  background: var(--bg-orange);
+  color: #fff;
+}
+html {
+  font-family: var(--ff-poppins);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-white);
+  color: var(--text-eerie-black-2);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+a,
+span,
+input,
+button {
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+input,
+button {
+  font: inherit;
+  background-color: transparent;
+  border: none;
+}
+input:is(:focus) {
+  border: none;
+  outline: none;
+}
+input {
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  height: auto;
+}
+/* Start Global Rules */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small screens */
+.container {
+  padding-inline: 16px;
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 450px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/* Medium screens */
+@media (min-width: 992px) {
+  .container {
+    max-width: 950px;
+  }
+}
+/* Large screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+.shape {
+  position: absolute;
+}
+@media (max-width: 1199px) {
+  .shape {
+    display: none;
+  }
+}
+.title {
+  font-family: var(--ff-clashDisplay);
+  font-weight: var(--weight-semiBold);
+  line-height: 1.2;
+}
+.main-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: var(--ff-clashDisplay);
+  font-size: var(--fs-12);
+  margin-block-end: 45px;
+  margin-inline: 15px;
+}
+@media (max-width: 992px) {
+  .main-title {
+    font-size: var(--fs-8);
+  }
+}
+.btn {
+  margin: 10px;
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid var(--border-eerie-black);
+  padding: 15px 30px;
+  max-width: max-content;
+  min-width: max-content;
+  font-weight: var(--weight-semiBold);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+  text-transform: capitalize;
+}
+@media (min-width: 768px) {
+  .btn {
+    padding: 20px 50px;
+  }
+}
+.btn:is(:hover, :focus) {
+  box-shadow: none;
+  color: var(--text-orange);
+}
+.btn-primary,
+.btn-secondary {
+  gap: 10px;
+  align-items: center;
+  text-transform: uppercase;
+}
+.btn-secondary {
+  background-color: var(--bg-orange);
+  color: var(--text-black);
+}
+.btn-secondary:is(:hover, :focus) {
+  color: var(--text-black);
+}
+.product-btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  padding:  10px 18px;
+  transition: var(--transition-1);
+  opacity: 0;
+}
+.img-holder {
+  overflow: hidden;
+  aspect-ratio: var(--width) / var(--height);
+  background-color: var(--bg-gainsboro);
+}
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.has-bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
